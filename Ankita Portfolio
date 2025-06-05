@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ankita Pendem | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
+    }
+    header, footer {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #333;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+    }
+    .contact-form button {
+      padding: 10px 20px;
+      background-color: #009688;
+      color: #fff;
+      border: none;
+    }
+    footer a {
+      color: #009688;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ankita G. Pendem</h1>
+    <p>Chemistry Educator | Researcher | Creative Professional</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Dedicated academic with 7+ years of tutoring experience, currently pursuing a Ph.D. in Chemistry. Passionate about research, teaching, and bringing creativity into education.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>Ph.D. in Chemistry (Ongoing) – Wilson College, University of Mumbai</li>
+      <li>M.Sc. Inorganic Chemistry – CGPA: 7.42, IY College, Mumbai</li>
+      <li>B.Sc. Chemistry – 69.37%, Sophia College</li>
+      <li>HSC – 61.38%, Sophia College</li>
+      <li>SSC – 83.45%, Holy Cross High School</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>Assistant Professor (CHB), Wilson College – 1 year</li>
+      <li>Private Tutor (International Curriculum) – 7 years</li>
+      <li>Research Intern, TIFR, Mankhurd</li>
+      <li>Projects: Composting using microbes, Synthesis of inorganic compounds</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Research & Analysis</li>
+      <li>Academic Writing</li>
+      <li>IT Basics</li>
+      <li>Creative Art & Visual Communication</li>
+    </ul>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Best Paper Award – NCCT 2023, Ahmedabad</li>
+      <li>Participant – Aavishkar 2023–24</li>
+      <li>Certified – Life Skills, Typing, MSc-IT</li>
+      <li>Drawing Exams – Elementary & Intermediate</li>
+    </ul>
+  </section>
+
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <p>Art, Craft, Quilling, Baking, Archaeology</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: ankita.pendem1997@gmail.com</p>
+    <p>Phone: +91 9869818190</p>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Connect on <a href="https://www.linkedin.com/in/ankita-pendem-563265341" target="_blank">LinkedIn</a></p>
+    <p>&copy; 2025 Ankita G. Pendem</p>
+  </footer>
+</body>
+</html>
